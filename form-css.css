@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:10px;
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    
+    background-image: url("pexels-tirachard-kumtanom-733856.jpg");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    padding:100px;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+input{
+    padding: 10px;
+    margin-left:4.7cm;
+}
+textarea{
+    margin-left: 4cm;
+}
+.submit{
+    text-align: center;
+    margin-left: 5cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius:5px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.reset{
+    margin-left: 1cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius:5px;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.container{
+    background-color:rgba(72, 199, 241, 0.5);
+    width:650px;
+    max-width:800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+}
+.text{
+    font-size:35px;
+    font-weight:900;
+    text-align: center;
+    border: 1px;
+    border-radius: 50px;
+    background:linear-gradient(violet, pink);
+    height:auto;
+    width:220px;
+    margin:5px;
+    justify-content: center;
+}
+.text:hover{
+    
+    color:cornflowerblue;
+    transition:0.5s;    
+}
+.p1{
+    font-weight: bold;
+}
+ .p1 label{
+    display: inline-block;
+    float: left;
+    position: absolute;
+ }
+.gender{
+    padding:0cm;
+}
+
